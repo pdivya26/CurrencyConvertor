@@ -48,9 +48,13 @@ form input {
     background-color: #a7a7a7;
 }
 
+form input:invalid {
+    border: 1px solid maroon;
+}
+
 .invmsg {
     font-size: 1rem;
-    color: maroon;
+    color: #bb0202;
 }
 
 .dropdown {

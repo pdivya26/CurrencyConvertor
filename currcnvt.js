@@ -91,11 +91,16 @@ async function convertCurrency() {
     console.log(convertedAmount);
 
     let result = document.querySelector("#msg");
-    let finRes = `${amtVal} ${fromC} = ${convertedAmount} ${toC}`;
-    if(finRes) {
-        result.innerText = finRes;
+    if(Number(amtVal)) {
+        let finRes = `${amtVal} ${fromC} = ${convertedAmount} ${toC}`;
+        if(finRes) {
+            result.innerText = finRes;
+        }
+        else {
+            console.log("Error!");
+        }
     }
     else {
-        console.log("Error!");
+        result.innerText = "";
     }
 }

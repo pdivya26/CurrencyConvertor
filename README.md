@@ -2,6 +2,8 @@
 
 A simple and responsive **Currency Converter** built using **HTML, CSS, and JavaScript**. This app fetches real-time exchange rates using the [ExchangeRate-API](https://www.exchangerate-api.com/).
 
+[**Check it out here!**](https://pdivya26.github.io/CurrencyConvertor/)
+
 ## Features
 
 - Convert any amount between over 160 currencies

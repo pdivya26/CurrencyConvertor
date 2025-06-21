@@ -74,7 +74,6 @@ async function convertCurrency() {
 
     console.log(`${fromC}, ${toC}`);
     console.log(countryList);
-    console.log(`https://v6.exchangerate-api.com/v6/21f19a5dd2390960a3f72daa/latest/${fromC}`);
     console.log(countryList[fromC]);
     console.log(countryList[toC]);
 
